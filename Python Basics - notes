@@ -1,0 +1,67 @@
+Python Basics
+
+Pre-requisites
+	Git & Git bash
+	Python
+	VS Code or other text editor
+
+Installation
+	Verifying installation and finding your python version
+	Using the python terminal on the command line
+		print()
+		quit()
+
+Assignment and evaluation:
+Basic variable assignment and manipulation
+	variables and values
+	hello world
+		assign words 
+		concatenate variables and strings - accounting for spaces
+		concatenate variables and variables
+		maths with variables
+		mixing data types and exceptions
+	evaluating variable values
+
+user input
+
+Python files and running from the command line
+
+Evaluation and iteration (+ identation)
+	if and if/else statements
+	while loops
+	for loops
+
+lists and dictionarys
+tuples
+
+Error handling - try/except
+
+Functions and method signatures
+
+Class structures and imports (as part of game)
+
+Guesing Game:
+Phase 1
+	computer 'thinks of a number', store a random integer between 1 - 10
+	take user input (guess)
+	report if correct
+
+Phase 2
+	define what the minimum and maximum number are
+	report minimum and maximum numbers to the user on input request
+	evaluate user responses:
+		is a number?
+		is within range?
+		is an integer?
+
+Phase 3
+	multiple user 'guesses' up to a defined maximum (game loop)
+
+Phase 4 
+	hint higher or lower than guess
+
+Phase 5
+	move code into methods + error handling
+
+Phase 6
+	class structures
