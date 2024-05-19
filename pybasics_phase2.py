@@ -38,7 +38,7 @@ if guess < min_number or guess > max_number:
 
 
 if is_valid:
-	if guess == number:
+	if int(guess) == number:
 		print("You win! The number was " + str(number))
 	else:
 		print("You lose. The number was " + str(number))
