@@ -10,10 +10,9 @@ current_guess = 0
 
 while not game_over:
 
-	guess = input("I've thought of a number between " + str(min_number) + " and " + str(max_number) + ". Can you guess it? Enter a number:")
-
 	is_valid = False
 	while not is_valid:
+		guess = input("I've thought of a number between " + str(min_number) + " and " + str(max_number) + ". Can you guess it? Enter a number:")
 		if guess.isnumeric():
 			guess = int(guess)
 			if guess >= min_number and guess <= max_number:

@@ -16,15 +16,14 @@ def get_guess(min: int, max: int) -> str:
 
 def validate_guess(guess: str, min_number: int, max_number: int) -> bool: 
 	is_valid = False
-	while not is_valid:
-		if guess.isnumeric():
-			guess = int(guess)
-			if guess >= min_number and guess <= max_number:
-				is_valid = True
-			else:
-				print("Your guess is out of range")	
+	if guess.isnumeric():
+		guess = int(guess)
+		if guess >= min_number and guess <= max_number:
+			is_valid = True
 		else:
-			print("That's not a valid number?")
+			print("Your guess is out of range")	
+	else:
+		print("That's not a valid number?")
 
 	return is_valid
 
