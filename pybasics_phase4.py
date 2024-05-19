@@ -20,7 +20,7 @@ while not game_over:
 			else:
 				print("Your guess is out of range")	
 		else:
-			print("That's not a valid number?")
+			print("That's not a valid integer")
 
 	if is_valid:
 		current_guess = current_guess + 1

@@ -23,7 +23,7 @@ def validate_guess(guess: str, min_number: int, max_number: int) -> bool:
 		else:
 			print("Your guess is out of range")	
 	else:
-		print("That's not a valid number?")
+		print("That's not a valid integer")
 
 	return is_valid
 
