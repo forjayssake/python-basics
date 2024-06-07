@@ -28,11 +28,23 @@ Python files and running from the command line
 
 Evaluation and iteration (+ identation)
 	if and if/else statements
-	while loops
-	for loops
 
-lists and dictionarys
-tuples
+lists 
+    mutable
+    items added to end of list
+    allows duplicates
+    copies memory location (object.copy())
+dictionaries
+    mutable
+    unordered - key value pairs
+    values can be duplicated, keys cannot
+tuples - 
+    immutable, ordered, order fixed
+    allows multiple data types
+    single items still require a comma
+
+while loops
+for loops
 
 Error handling - try/except
 
